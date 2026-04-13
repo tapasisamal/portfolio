@@ -5,7 +5,7 @@ const projects = [
       "A real-time chat application with authentication and live messaging using Supabase.",
     tech: ["React", "Supabase", "PostgreSQL"],
     github: "https://github.com/tapasisamal/realtime-chat-app",
-    live: "#",
+    live: "https://realtime-chat-v2-ruddy.vercel.app/",
   },
   {
     title: "DevNotes",
