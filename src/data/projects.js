@@ -10,7 +10,7 @@ const projects = [
   {
     title: "DevNotes",
     description:
-      "A secure note-taking application with authentication and full CRUD functionality using Appwrite and Redux Toolkit for state management.",
+      "A secure and responsive note-taking web application with authentication and full CRUD operations. Implements real-time search for notes and user-specific data handling using Appwrite, with Redux Toolkit for state management.",
     tech: ["React", "Redux Toolkit", "Appwrite"],
     github: "https://github.com/tapasisamal/dev-notes",
     live: "https://dev-notes-nu.vercel.app/login",
@@ -18,7 +18,7 @@ const projects = [
   {
     title: "Expense Tracker",
     description:
-      "A responsive expense tracking application with real-time calculations, category filtering, and persistent storage using LocalStorage.",
+      "A responsive expense tracking application with real-time expense calculations, category-based filtering, and persistent data storage using LocalStorage.",
     tech: ["React", "Context API", "Tailwind"],
     github: "https://github.com/tapasisamal/expense-tracker",
     live: "https://expense-tracker-nu-lime-95.vercel.app/",
