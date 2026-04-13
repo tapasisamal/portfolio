@@ -13,7 +13,7 @@ const projects = [
       "A secure and responsive note-taking web application with authentication and full CRUD operations. Implements real-time search for notes and user-specific data handling using Appwrite, with Redux Toolkit for state management.",
     tech: ["React", "Redux Toolkit", "Appwrite"],
     github: "https://github.com/tapasisamal/dev-notes",
-    live: "https://dev-notes-nu.vercel.app/login",
+    live: "https://dev-notes-nu.vercel.app/",
   },
   {
     title: "Expense Tracker",
