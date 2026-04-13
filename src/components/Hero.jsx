@@ -4,13 +4,13 @@ function Hero() {
   return (
     <section className="h-screen flex items-center justify-center text-center px-4 bg-linear-to-br from-blue-50 via-white to-purple-50">
       <div className="max-w-3xl">
-        
-        {/* Role */}
+
+        {/* Role Badge */}
         <motion.p
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="inline-block px-4 py-1 text-sm font-medium text-blue-600 bg-blue-100 rounded-full mb-4"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="inline-block px-4 py-1 text-sm font-medium text-blue-600 bg-blue-100 rounded-full mb-4"
         >
           Frontend Developer • React, Tailwind, JavaScript
         </motion.p>
@@ -25,8 +25,18 @@ function Hero() {
           Hi, I'm{" "}
           <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-500">
             Tapasi Samal
-          </span>{" "}
+          </span>
         </motion.h1>
+
+        {/* Availability Badge */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          className="inline-block px-4 py-1 text-sm font-medium text-green-600 bg-green-100 rounded-full mb-6"
+        >
+          Available for Frontend Developer / Internship roles
+        </motion.p>
 
         {/* Description */}
         <motion.p
@@ -35,7 +45,7 @@ function Hero() {
           transition={{ duration: 0.9 }}
           className="text-lg md:text-xl text-gray-600 mb-8"
         >
-          I build modern, responsive web applications with React, Tailwind CSS,
+          I build modern, responsive web applications using React, Tailwind CSS,
           and real-time technologies.
         </motion.p>
 
@@ -55,11 +65,12 @@ function Hero() {
 
           <a
             href="#contact"
-            className="border border-gray-400 px-6 py-3 rounded-lg hover:bg-gray-100 hover:scale-105 transition duration-300"
+            className="border border-gray-400 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-100 hover:scale-105 transition duration-300"
           >
             Contact Me
           </a>
         </motion.div>
+
       </div>
     </section>
   );

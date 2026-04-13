@@ -23,7 +23,7 @@ function About() {
       >
         I am a frontend developer focused on building modern, responsive, and user-friendly web applications. I specialize in working with React, Tailwind CSS, and JavaScript to create clean, efficient, and interactive user interfaces.
         <br /><br />
-        I have experience building real-time applications, authentication-based systems, and CRUD applications. Currently, I am focused on strengthening my frontend skills by building practical projects and exploring modern web technologies.
+        I enjoy turning ideas into smooth, functional web experiences and have built real-time and authentication-based applications using modern web technologies.
       </motion.p>
 
     </section>
