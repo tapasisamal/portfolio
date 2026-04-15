@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className="h-screen flex items-center justify-center text-center px-4 bg-linear-to-br from-blue-50 via-white to-purple-50">
+    <section className="h-screen flex items-center justify-center text-center px-4 bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <div className="max-w-3xl">
 
         {/* Role Badge */}
@@ -20,22 +20,22 @@ function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-bold leading-tight mb-4"
+          className="text-4xl md:text-6xl font-bold leading-tight mb-3"
         >
           Hi, I'm{" "}
-          <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
             Tapasi Samal
           </span>
         </motion.h1>
 
-        {/* Availability Badge */}
+        {/* Availability (Subtle, not badge) */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="inline-block px-4 py-1 text-sm font-medium text-green-600 bg-green-100 rounded-full mb-6"
+          className="text-sm text-gray-500 mb-6"
         >
-          Available for Frontend Developer / Internship roles
+          Open to Frontend Developer / Internship opportunities
         </motion.p>
 
         {/* Description */}
@@ -45,8 +45,7 @@ function Hero() {
           transition={{ duration: 0.9 }}
           className="text-lg md:text-xl text-gray-600 mb-8"
         >
-          I build modern, responsive web applications using React, Tailwind CSS,
-          and real-time technologies.
+          I build modern, responsive web applications using React, Tailwind CSS, and real-time technologies, focusing on clean UI and smooth user experience.
         </motion.p>
 
         {/* Buttons */}
